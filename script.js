@@ -1,6 +1,6 @@
 function firstWord(s) {
   // your code here
-	let sp = s.indexOf(" ");
+	let spaceIndex = s.indexOf(" ");
 	if (spaceIndex === -1) {
         return s;
     }
