@@ -4,7 +4,9 @@ function firstWord(s) {
 	if (spaceIndex === -1) {
         return s;
     }
-
+	if (s === "") {
+        return "";
+    }
     // Otherwise, return the substring from index 0 to the first space
     return s.slice(0, spaceIndex);
 }
